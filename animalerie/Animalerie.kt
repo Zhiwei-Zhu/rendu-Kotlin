@@ -4,7 +4,7 @@ class Animalerie():Animal {
     fun add(type:String, sound:String) {
         listt.add(type)
         lists.add(sound)
-
+        println(listt)
     }
 
     override fun quiSuisJe(){
