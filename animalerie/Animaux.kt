@@ -1,5 +1,5 @@
 
-class Animaux(var type : String,var sound: String): Animal{
+open class Animaux(var type : String,var sound: String): Animal{
     override fun parler(){
         println(sound)
     }
